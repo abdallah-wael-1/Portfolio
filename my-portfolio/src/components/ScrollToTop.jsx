@@ -1,4 +1,3 @@
-// src/components/ScrollToTop.jsx
 import React, { useState, useEffect } from "react";
 import { IconButton, Box } from "@mui/material";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
@@ -19,7 +18,7 @@ export default function ScrollToTop({ showAfter = 300 }) {
       setScrollPercent(scrolledPercent);
     }
 
-    handleScroll(); // check on mount
+    handleScroll();
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, [showAfter]);
