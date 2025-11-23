@@ -1,4 +1,3 @@
-// src/components/Navbar.jsx
 import { useState } from "react";
 import {
   AppBar,
@@ -13,13 +12,14 @@ import {
   ListItemText,
   ListItemIcon,
 } from "@mui/material";
+// ICONS
 import MenuIcon from "@mui/icons-material/Menu";
 import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import WorkIcon from "@mui/icons-material/Work";
 import BuildIcon from "@mui/icons-material/Build";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
-
+// LOGO
 import logoImage from "../assets/images/my-logo.png";
 
 export default function Navbar() {
