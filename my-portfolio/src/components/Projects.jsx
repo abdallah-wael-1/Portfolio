@@ -1,4 +1,3 @@
-// src/components/Projects.jsx
 import React, { useState } from "react";
 import { Box, Typography, Grid, Chip, Button } from "@mui/material";
 import { motion } from "framer-motion";
@@ -18,6 +17,7 @@ import Platform from "../assets/images/platform.png";
 import Prayer from "../assets/images/paryer-times.png";
 import Todo from "../assets/images/to-do-list.png";
 
+// DATA
 const projectsData = [
   {
     id: 1,
