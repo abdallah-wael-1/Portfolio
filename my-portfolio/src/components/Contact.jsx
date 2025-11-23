@@ -1,4 +1,3 @@
-// src/components/Contact.jsx
 import React, { useState } from "react";
 import {
   Box,
@@ -10,7 +9,7 @@ import {
   IconButton,
 } from "@mui/material";
 import SectionTitle from "./Title/SectionTitle.jsx";
-
+// ICONS
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
@@ -86,7 +85,7 @@ export default function Contact() {
         MySwal.fire("Error", data.error || "Something went wrong", "error");
       }
     } catch (err) {
-      console.error("❌ Error sending message:", err); // هيظهر الخطأ في الـ console
+      console.error(" Error sending message:", err); 
       MySwal.fire("Error", err.message || "Server not reachable", "error");
     }
   };
