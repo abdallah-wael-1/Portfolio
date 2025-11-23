@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import myLogo from "../assets/images/my-logo.png"; // ضع اللوجو هنا
+import myLogo from "../assets/images/my-logo.png";
 
 export default function Loader() {
   return (
