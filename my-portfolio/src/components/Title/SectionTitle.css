@@ -35,6 +35,7 @@
   animation: right-move 2s ease-in-out infinite;
 }
 
+/* Animation */
 @keyframes left-move {
   50% {
     left: 0;
