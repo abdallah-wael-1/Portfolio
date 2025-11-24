@@ -5,7 +5,7 @@ import { ThemeProvider, createTheme, CssBaseline } from "@mui/material";
 import App from "./App";
 
 function Root() {
-  const [mode, setMode] = useState("dark"); // 👈 يبدأ في الوضع الداكن
+  const [mode, setMode] = useState("dark"); 
 
   const theme = useMemo(
     () =>
